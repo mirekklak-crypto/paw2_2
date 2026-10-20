@@ -2,3 +2,30 @@ html {
   height: 100%;
   width: 100%;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center; 
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.post-title {
+  color: red; 
+  font-weight: bold;
+}
+
+.post-body {
+  color: green; 
+}
+
